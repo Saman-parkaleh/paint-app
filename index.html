@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Paint app</title>
+<link rel="stylesheet" href="Style.css">
+<script
+src="https://kit.fontawesome.com/b4ef87d3c4.js"
+crossorigin="anonymous"
+></script>
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
+</head>
+<body>
+<div class="contaner">   
+<div class="tool-area">
+<div class="tool">
+<div class="eraser">
+<i class="fa-solid fa-eraser"></i>
+<label for="">eraser</label>
+</div>
+<div class="brush"  >
+<i class="fa-solid fa-paintbrush"></i>
+<label for="">brush</label>
+</div>
+<div class="coler">
+<i class="fa-solid fa-palette"></i>
+<label for="">coler</label>
+<input type="color" id="colerpider">
+</div>
+<input id="brushwhidth" type="range" min="1" max="10">
+</div>
+<div class="button">
+<button id="save">save</button>
+<button id="clear">clear</button>
+</div>
+</div>
+
+<div class="draw-area"></div>
+<canvas></canvas>
+</div>
+</body>
+<script src="app.js"></script>
+</html>

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: klam;
+  src: url(Alegreya-Italic-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: klam;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(7, 232, 253);
+}
+.contaner {
+  width: 800px;
+  height: 450px;
+  background-color: cadetblue;
+  border-radius: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.tool-area {
+  background-color: rgb(201, 185, 165);
+  height: 50px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  cursor: pointer;
+}
+.activ{
+  color: rgb(14, 103, 199);
+  }
+.tool {
+  display: flex;
+  width: 65%;
+  align-items: center;
+  justify-content: space-between;
+
+}
+input[type="color"] {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+i {
+  margin: 0px 5px;
+}
+button {
+  width: 50px;
+  margin-right: 20px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+}
+button:hover {
+  background-color: rgb(7, 232, 253);
+}
+canvas {
+  width: 100%;
+  height: 400px;
+  background-color: aliceblue;
+  border-end-end-radius:20px;
+  border-end-start-radius:20px;
+}
